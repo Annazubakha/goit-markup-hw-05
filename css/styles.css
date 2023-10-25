@@ -820,6 +820,9 @@ img {
   fill: var(--modal-background);
   transition: fill var(--duration) var(--timing-function);
 }
+.form-div-label-textarea {
+  margin-bottom: 16px;
+}
 .modal-textarea {
   font-size: 12px;
   width: 100%;
@@ -834,7 +837,6 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color var(--duration) var(--timing-function);
-  margin-bottom: 16px;
 }
 .modal-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
@@ -897,7 +899,7 @@ img {
 .checkbox-input:checked + .privacy-label .privacy-checkbox-span {
   background-color: var(--secondary-botton-color);
   border: none;
-  fill: var(--primery-white-color);
+  fill: var(--primery-cloud-color);
 }
 
 .privacy-label {
